@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4048c9d3-a27d-47ae-9c4f-63aa7ecaf8af")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 209.55 121.92)
+		(size 53.34 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "07c53455-6d66-4fc1-a23e-3566368cc26c")
+		(property "Sheetname" "Master_Sheet"
+			(at 209.55 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Master.kicad_sch"
+			(at 209.55 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Untitled"
+				(path "/4048c9d3-a27d-47ae-9c4f-63aa7ecaf8af"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.12 78.74)
+		(size 26.67 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7fcc4e0c-db69-467c-97dc-2a42e1baba10")
+		(property "Sheetname" "Sound_Sheet"
+			(at 198.12 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sound_Sheet.kicad_sch"
+			(at 198.12 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Untitled"
+				(path "/4048c9d3-a27d-47ae-9c4f-63aa7ecaf8af"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 107.95)
+		(size 36.83 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b0d8dc9f-324f-4f89-89a0-7a52b3a91147")
+		(property "Sheetname" "Pad_Sheet"
+			(at 205.74 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Pad_Sheet.kicad_sch"
+			(at 205.74 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Untitled"
+				(path "/4048c9d3-a27d-47ae-9c4f-63aa7ecaf8af"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,32 @@
+graph TD
+    %% 電源系
+    USB[USB Type-C] --> SW[Power Switch]
+    SW --> LDO_A[LDO 1: Analog Power]
+    SW --> LDO_D[LDO 2: Digital Power]
+    
+    %% オーディオ・アナログパス
+    Input[Audio Input] --> Amp[Analog Effect Section: Distortion]
+    Amp --> Filter[Analog Filter Bank]
+    Filter --> Output[Audio Output]
+    
+    %% メイン制御部 (Main Unit)
+    LDO_D --> MCU_M[MCU Master: Teensy 4.1 etc.]
+    
+    %% ユーザー入力
+    FilterPot[Filter Type Pot] --(ADC)--> MCU_M
+    MCU_M --(Control)--> Mux[Analog Mux / Relay]
+    Mux --(Type Select)--> Filter
+    
+    %% パッド制御（2軸）
+    MCU_M --(SPI/I2C)--> DigiPot1[DigiPot X: Gain]
+    MCU_M --(SPI/I2C)--> DigiPot2[DigiPot Y: Cutoff/Res]
+    DigiPot1 --- Amp
+    DigiPot2 --- Filter
+    
+    %% サテライト接続
+    MCU_M --(FFC: RS-485)--> MCU_S[MCU Satellite]
+    MCU_S --- Haptic[Haptic Engine: DRV/LRA]
+    MCU_S --- Touch[Touch Interface: MTCH/Pad]
+    
+    %% フィードバック
+    MCU_M --> Indicator[Visual Indicator: LED/LCD]

@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=MTCH6102-I/SS
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=28
+Version=1.1
+Released=2018-06-19 06:29:34
+Downloaded=2026-03-19 14:42:22
+3D=Y

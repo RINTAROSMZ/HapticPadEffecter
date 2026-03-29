@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MTCH6102-I_SS
+D MICROCHIP - MTCH6102-I/SS - CAPACITIVE TOUCH SENSOR, 15 CH, SSOP-28
+K
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001750A.pdf
+$ENDCMP
+#
+#End Doc Library
