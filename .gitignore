@@ -2,5 +2,6 @@ untitled-backups
 ~*
 \#auto_saved_files#
 fp-info-cache
-*-bak
+*-bak*
+.json
 .DS_Store
