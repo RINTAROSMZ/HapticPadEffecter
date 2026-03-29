@@ -6196,7 +6196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:AUDIO-TH_320B"
+		(property "Footprint" "easyeda2kicad:AUDIO-TH_320B"
 			(at 74.93 142.24 0)
 			(effects
 				(font
