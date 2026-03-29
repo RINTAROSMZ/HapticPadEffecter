@@ -3,4 +3,4 @@
 
 Capative PCB trackpad (diamond pattern)
 
-intuitive manipulation of the parameters of Distortion aand Spatial effects
+Intuitive manipulation of the parameters of Distortion and Spatial effects
