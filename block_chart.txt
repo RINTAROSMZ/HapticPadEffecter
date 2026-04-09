@@ -1,3 +1,6 @@
+
+##没要素あり 要修正
+
 graph TD
     %% 電源系
     USB[USB Type-C] --> SW[Power Switch]

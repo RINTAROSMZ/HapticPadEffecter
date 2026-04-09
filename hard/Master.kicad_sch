@@ -6603,83 +6603,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 228.6 123.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0d1bb0e1-f7fe-47e2-bd88-9246890ac16c")
-		(property "Reference" "R5"
-			(at 227.3299 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 229.8699 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 228.6 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 228.6 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 228.6 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C23162"
-			(at 228.6 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "000f561a-3141-496d-9d77-15fa2c4e2b7b")
-		)
-		(pin "2"
-			(uuid "783378fd-d725-4f31-af71-63911176665b")
-		)
-		(instances
-			(project "Untitled"
-				(path "/4048c9d3-a27d-47ae-9c4f-63aa7ecaf8af/07c53455-6d66-4fc1-a23e-3566368cc26c"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 199.39 72.39 180)
 		(unit 1)
@@ -8213,6 +8136,83 @@
 			(project "Untitled"
 				(path "/4048c9d3-a27d-47ae-9c4f-63aa7ecaf8af/07c53455-6d66-4fc1-a23e-3566368cc26c"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 219.71 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3af6fd90-f1cd-4b20-8210-0f45173f53de")
+		(property "Reference" "R4"
+			(at 218.4399 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 220.9799 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 219.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 219.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dc1a6c8-c479-45c5-8270-e302f589e2e1")
+		)
+		(pin "2"
+			(uuid "e6371208-1727-4184-8a5f-8b65dc3abd90")
+		)
+		(instances
+			(project "Untitled"
+				(path "/4048c9d3-a27d-47ae-9c4f-63aa7ecaf8af/07c53455-6d66-4fc1-a23e-3566368cc26c"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11026,6 +11026,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 228.6 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3dd8c99-619c-471a-8226-872dfed2fb59")
+		(property "Reference" "R5"
+			(at 227.3299 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 229.8699 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 228.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 228.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f8b2cf3-efe5-4574-97ff-42415ffdca4d")
+		)
+		(pin "2"
+			(uuid "55c11bca-8ffb-4228-8bad-814efbe1a2f2")
+		)
+		(instances
+			(project "Untitled"
+				(path "/4048c9d3-a27d-47ae-9c4f-63aa7ecaf8af/07c53455-6d66-4fc1-a23e-3566368cc26c"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 186.69 115.57 180)
 		(unit 1)
@@ -11130,7 +11207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm"
+		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
 			(at 60.96 58.42 0)
 			(effects
 				(font
@@ -12518,83 +12595,6 @@
 			(project "Untitled"
 				(path "/4048c9d3-a27d-47ae-9c4f-63aa7ecaf8af/07c53455-6d66-4fc1-a23e-3566368cc26c"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 219.71 137.16 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c77e225b-e129-4ef4-87b0-747e11172e6b")
-		(property "Reference" "R4"
-			(at 218.4399 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 220.9799 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 219.71 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C23162"
-			(at 219.71 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "42d5da6e-f0af-46e0-a8c4-f06221e3ae45")
-		)
-		(pin "2"
-			(uuid "d59222f5-9e58-4cfb-a6ab-ada7090387c0")
-		)
-		(instances
-			(project "Untitled"
-				(path "/4048c9d3-a27d-47ae-9c4f-63aa7ecaf8af/07c53455-6d66-4fc1-a23e-3566368cc26c"
-					(reference "R4")
 					(unit 1)
 				)
 			)
